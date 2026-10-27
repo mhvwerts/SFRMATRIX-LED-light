@@ -1,0 +1,9 @@
+# Reference conda environment for LED_control_gui.py
+# Create with:  conda env create -f environment.yml
+name: sfrmatrix-led
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12
+  - nicegui
+  - pyserial
